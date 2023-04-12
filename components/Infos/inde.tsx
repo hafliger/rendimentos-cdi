@@ -39,7 +39,7 @@ export default function Infos() {
               Rentabilidade projetada
             </dt>
             <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
-              13,65%
+              8%
             </dd>
           </div>
 
@@ -59,11 +59,11 @@ export default function Infos() {
                       aria-hidden="true"
                     />
                     <span className="ml-2 w-0 flex-1 truncate">
-                      Ganhos de Março
+                      Ganhos projeção Abril
                     </span>
                   </div>
                   <div className="ml-4 flex-shrink-0">
-                    <span className="ml-2 w-0 flex-1 truncate">R$ 129,00</span>
+                    <span className="ml-2 w-0 flex-1 truncate">R$ 845,00</span>
                   </div>
                 </li>
                 <li className="flex items-center justify-between py-3 pl-3 pr-4 text-sm">
@@ -77,7 +77,7 @@ export default function Infos() {
                     </span>
                   </div>
                   <div className="ml-4 flex-shrink-0">
-                    <span className="ml-2 w-0 flex-1 truncate">R$ 890,00</span>
+                    <span className="ml-2 w-0 flex-1 truncate">R$ 9.612,64</span>
                   </div>
                 </li>
               </ul>

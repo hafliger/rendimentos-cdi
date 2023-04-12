@@ -24,10 +24,8 @@ export default function Modal() {
     ) {
       setOpen(false)
     } else {
-      console.log("acesso fudido")
+      console.log("acesso negado")
     }
-    console.log(data.email)
-    console.log(data.password)
   }
 
   const [open, setOpen] = useState(true)
@@ -90,7 +88,7 @@ export default function Modal() {
                       <div className="-space-y-px rounded-md shadow-sm">
                         <div>
                           <label htmlFor="email-address" className="sr-only">
-                            Email address
+                            Email de acesso
                           </label>
                           <input
                             id="email-address"
@@ -104,7 +102,7 @@ export default function Modal() {
                         </div>
                         <div>
                           <label htmlFor="password" className="sr-only">
-                            Password
+                            Senha
                           </label>
                           <input
                             id="password"
